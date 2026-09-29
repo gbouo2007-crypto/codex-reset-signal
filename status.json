@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-29T14:35:13.389Z",
+  "username": "thsottiaux",
+  "keyword": "reset",
+  "monitor": {
+    "provider": "fxembed",
+    "lastCheckedAt": "2026-09-29T14:35:13.385Z",
+    "lastSuccessAt": "2026-09-29T14:35:13.385Z",
+    "lastRunStatus": "bootstrapped"
+  },
+  "latestObservedPost": {
+    "id": "2104936468624105813",
+    "text": "@imnotchalk 👀",
+    "url": "https://x.com/thsottiaux/status/2104936468624105813",
+    "postCreatedAt": "2026-09-29T14:08:56.000Z"
+  },
+  "latest": {
+    "reset": null,
+    "bankCredit": {
+      "version": "history:2096035437299237298",
+      "id": "2096035437299237298",
+      "text": "Because we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it’s ok!)… we will do the full banked reset today too for all Plus, Pro and Business users. Lands end of day. Happy Astra day and enjoy a phenomenal weekend. PS: If you create the account or upgrade before 8pm PT you will get it too. Still time!",
+      "url": "https://x.com/thsottiaux/status/2096035437299237298",
+      "postCreatedAt": "2026-09-05T00:39:25.364Z",
+      "detectedAt": "2026-09-09T08:30:00.000Z",
+      "events": [
+        {
+          "type": "bank_credit",
+          "status": "announced",
+          "evidence": "we will do the full banked reset today too for all Plus, Pro and Business users",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Lands end of day",
+            "note": "Banked reset was promised by end of day, but no safe exact landing time is stated. The separate 8pm PT time is an eligibility cutoff for account creation or upgrade, not the bank-credit landing time."
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "historical_seed"
+    },
+    "bankExpiry": null
+  },
+  "recent": [
+    {
+      "version": "6318f9d8a246e13f79341d9899d5506a36c826782b7fa20a328fe7948e26e8a0",
+      "id": "2103963215885701493",
+      "text": "@giadotai Sorry Gia. More resets coming next week",
+      "url": "https://x.com/thsottiaux/status/2103963215885701493",
+      "postCreatedAt": "2026-09-26T21:41:35.000Z",
+      "detectedAt": "2026-09-29T14:35:13.385Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "More resets coming next week",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "More resets coming next week",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "live"
+    },
+    {
+      "version": "history:2096035437299237298",
+      "id": "2096035437299237298",
+      "text": "Because we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it’s ok!)… we will do the full banked reset today too for all Plus, Pro and Business users. Lands end of day. Happy Astra day and enjoy a phenomenal weekend. PS: If you create the account or upgrade before 8pm PT you will get it too. Still time!",
+      "url": "https://x.com/thsottiaux/status/2096035437299237298",
+      "postCreatedAt": "2026-09-05T00:39:25.364Z",
+      "detectedAt": "2026-09-09T08:30:00.000Z",
+      "events": [
+        {
+          "type": "bank_credit",
+          "status": "announced",
+          "evidence": "we will do the full banked reset today too for all Plus, Pro and Business users",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Lands end of day",
+            "note": "Banked reset was promised by end of day, but no safe exact landing time is stated. The separate 8pm PT time is an eligibility cutoff for account creation or upgrade, not the bank-credit landing time."
+          }
+        }
+      ],
+      "deliveryChannels": [],
+      "origin": "historical_seed"
+    }
+  ]
+}

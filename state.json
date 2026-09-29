@@ -2,14 +2,69 @@
   "version": 2,
   "username": "thsottiaux",
   "keyword": "reset",
-  "userId": null,
-  "sinceId": null,
-  "lastCheckedAt": null,
-  "lastSuccessAt": null,
-  "lastRunStatus": "waiting-for-first-run",
-  "postsScanned": 0,
-  "matches": [],
+  "userId": "1953337039510003712",
+  "sinceId": "2104936468624105813",
+  "lastCheckedAt": "2026-09-29T14:35:13.385Z",
+  "lastSuccessAt": "2026-09-29T14:35:13.385Z",
+  "lastRunStatus": "bootstrapped",
+  "postsScanned": 20,
+  "matches": [
+    {
+      "version": "6318f9d8a246e13f79341d9899d5506a36c826782b7fa20a328fe7948e26e8a0",
+      "id": "2103963215885701493",
+      "canonicalId": "2103963215885701493",
+      "text": "@giadotai Sorry Gia. More resets coming next week",
+      "createdAt": "2026-09-26T21:41:35.000Z",
+      "url": "https://x.com/thsottiaux/status/2103963215885701493",
+      "media": [],
+      "detectedAt": "2026-09-29T14:35:13.385Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "More resets coming next week",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "More resets coming next week",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "channels": []
+    }
+  ],
   "outbox": [],
-  "seen": {},
-  "latestObservedPost": null
+  "seen": {
+    "2103963215885701493": "6318f9d8a246e13f79341d9899d5506a36c826782b7fa20a328fe7948e26e8a0",
+    "2104100881100890402": "4948815b5afab7b579f72b5d742490570957b27e4f2caae28b5a30f484b04c49",
+    "2104101496606618082": "60fd74cebffa3fca72b492ec95d2f77b32c46a7356b4d5c00887638602c301fe",
+    "2104108167806550046": "356ee6a345816de85e7817db751f4f25467ff9f5eafac9bd4e4c44e1d1fadd80",
+    "2104313314901958706": "8b63c2175e53fe9e38a5b7a307e8426b5c9d9b576d38c102d6a44c407c6efd74",
+    "2104313502697660428": "83fe0048f8c76c882f423adc46eeced26dbc20e87d1cfdaf3f9de9d70afe990d",
+    "2104313777013526880": "6156ce87b85773983fa8403f72c51d780a4fa6c4b6bbe5b9a843efad7f6bcc91",
+    "2104383749723128052": "eaf2cec4380c31fe8bd6b3300cc58eebd1412207895a165ea9ecd6773b102e81",
+    "2104388401218932888": "93ee1f9c1865b32903bce62e1de33b0282456320dce4acfceb42fb4ba6b6fe21",
+    "2104451970983768270": "215db01dd26a9673b98fd2312a36d7141b9527f78d381c84effc6b67a99f9407",
+    "2104462572644888780": "39976ba5d171f4ab15bec73b73498cf3ae662bce29a3cb20963715b21135c9a4",
+    "2104462713296683467": "77cc6cc67941e6c11d120797764d41acc96703d29201d5c305730dc4b53fefe0",
+    "2104462923661988233": "09fe9fe79b85bf5c68504cf917393ae5e8ecec188b43729f7b939c2441219344",
+    "2104465709384491519": "ba3e2d57753dad8594b3d1ade4123d98fde2a316bcd626b94d7b7fa54b165aab",
+    "2104467346945675347": "489ddceb5add14672eae6c665ee89afacf849871f05d026286098dc5dff2c973",
+    "2104823812042940713": "292afd3bcc24bdf7bd9f61e773adbd8fa1ae4de4cb5d8a152a9af6bc6c214499",
+    "2104827790440935508": "c37da276b05aeefe9749e21687762d8c9c222b71e305748ceb2c6bb1ba367af7",
+    "2104838506363408740": "7b1533ea95ecf407a9f49efa5fb152c606b69d4e181502fec33b6e3af917e234",
+    "2104934849970913519": "e4d05009850eb37eb3982f7d45c791b90f820e2a2e27f8992f720a21e25ab2ac",
+    "2104936468624105813": "8f5e24b167131dfdf62ab30ebfe9cd29db7bac0cba7fcc0aeb9810ee91e8dc4b"
+  },
+  "latestObservedPost": {
+    "id": "2104936468624105813",
+    "canonicalId": "2104936468624105813",
+    "text": "@imnotchalk 👀",
+    "createdAt": "2026-09-29T14:08:56.000Z",
+    "url": "https://x.com/thsottiaux/status/2104936468624105813",
+    "media": []
+  },
+  "eventParserVersion": 5
 }
