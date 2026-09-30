@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T16:51:36.133Z",
+  "updatedAt": "2026-09-30T21:06:30.668Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-09-30T16:51:36.129Z",
-    "lastSuccessAt": "2026-09-30T16:51:36.129Z",
+    "lastCheckedAt": "2026-09-30T21:06:30.664Z",
+    "lastSuccessAt": "2026-09-30T21:06:30.664Z",
     "lastRunStatus": "checked-5-posts"
   },
   "latestObservedPost": {
-    "id": "2105310973532012793",
-    "text": "@weswinder Careful, sending the dot police",
-    "url": "https://x.com/thsottiaux/status/2105310973532012793",
-    "postCreatedAt": "2026-09-30T14:57:05.000Z"
+    "id": "2105395200248156556",
+    "text": "Asked my dot to paint me. After sending me something cartoonish, I asked it to try a bit harder and to find a recent picture of me on the internet. It did better.\n\nBelow video is me clicking through my dot's computer. https://t.co/AutVg2erlh",
+    "url": "https://x.com/thsottiaux/status/2105395200248156556",
+    "postCreatedAt": "2026-09-30T20:31:46.000Z"
   },
   "latest": {
     "reset": null,
