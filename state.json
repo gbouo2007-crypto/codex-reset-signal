@@ -4,15 +4,14 @@
   "keyword": "reset",
   "userId": "1953337039510003712",
   "sinceId": "2105727933579137159",
-  "lastCheckedAt": "2026-10-01T19:05:11.068Z",
-  "lastSuccessAt": "2026-10-01T19:05:11.068Z",
-  "lastRunStatus": "checked-7-posts",
+  "lastCheckedAt": "2026-10-01T23:09:08.190Z",
+  "lastSuccessAt": "2026-10-01T23:09:08.190Z",
+  "lastRunStatus": "checked-0-posts",
   "postsScanned": 94,
   "matches": [
     {
       "version": "167a269c5773a9f503592fe0b0b5df1cde533a29f9c0c1145fa8cac12081882e",
       "id": "2105672058269212820",
-      "canonicalId": "2105672058269212820",
       "text": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset. I need to come up with something new fast.",
       "createdAt": "2026-10-01T14:51:54.000Z",
       "url": "https://x.com/thsottiaux/status/2105672058269212820",
@@ -32,11 +31,11 @@
           }
         }
       ],
+      "notifiedAt": "2026-10-01T19:05:11.071Z",
       "channels": [
         "github-actions",
         "email"
-      ],
-      "notifiedAt": "2026-10-01T19:05:11.071Z"
+      ]
     },
     {
       "version": "6318f9d8a246e13f79341d9899d5506a36c826782b7fa20a328fe7948e26e8a0",
