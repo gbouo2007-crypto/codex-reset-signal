@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T00:32:16.587Z",
+  "updatedAt": "2026-10-01T06:29:18.497Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-01T00:32:16.581Z",
-    "lastSuccessAt": "2026-10-01T00:32:16.581Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-01T06:29:18.493Z",
+    "lastSuccessAt": "2026-10-01T06:29:18.493Z",
+    "lastRunStatus": "checked-6-posts"
   },
   "latestObservedPost": {
-    "id": "2105395200248156556",
-    "text": "Asked my dot to paint me. After sending me something cartoonish, I asked it to try a bit harder and to find a recent picture of me on the internet. It did better.\n\nBelow video is me clicking through my dot's computer. https://t.co/AutVg2erlh",
-    "url": "https://x.com/thsottiaux/status/2105395200248156556",
-    "postCreatedAt": "2026-09-30T20:31:46.000Z"
+    "id": "2105522533139452359",
+    "text": "@jxnlco I was going to say, last year. But no… it was this year.",
+    "url": "https://x.com/thsottiaux/status/2105522533139452359",
+    "postCreatedAt": "2026-10-01T04:57:45.000Z"
   },
   "latest": {
     "reset": null,
