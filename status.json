@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T02:15:26.021Z",
+  "updatedAt": "2026-10-02T08:39:03.166Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-02T02:15:25.789Z",
-    "lastSuccessAt": "2026-10-02T02:15:25.789Z",
-    "lastRunStatus": "checked-3-posts"
+    "lastCheckedAt": "2026-10-02T08:39:03.157Z",
+    "lastSuccessAt": "2026-10-02T08:39:03.157Z",
+    "lastRunStatus": "checked-5-posts"
   },
   "latestObservedPost": {
-    "id": "2105843926221660585",
-    "text": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
-    "url": "https://x.com/thsottiaux/status/2105843926221660585",
-    "postCreatedAt": "2026-10-02T02:14:51.000Z"
+    "id": "2105899634032025682",
+    "text": "Down to 6110 unread from the over 9000 unread emails just earlier. Will get to inbox zero with clean filters within the next 48 hours. Dot has accepted the challenge.",
+    "url": "https://x.com/thsottiaux/status/2105899634032025682",
+    "postCreatedAt": "2026-10-02T05:56:13.000Z"
   },
   "latest": {
     "reset": {
