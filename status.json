@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T23:05:53.174Z",
+  "updatedAt": "2026-10-04T02:34:01.415Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-03T23:05:53.170Z",
-    "lastSuccessAt": "2026-10-03T23:05:53.170Z",
-    "lastRunStatus": "checked-3-posts"
+    "lastCheckedAt": "2026-10-04T02:34:01.410Z",
+    "lastSuccessAt": "2026-10-04T02:34:01.410Z",
+    "lastRunStatus": "checked-4-posts"
   },
   "latestObservedPost": {
-    "id": "2106501204285239560",
-    "text": "If we were to add one more sidebar, what should be in it",
-    "url": "https://x.com/thsottiaux/status/2106501204285239560",
-    "postCreatedAt": "2026-10-03T21:46:38.000Z"
+    "id": "2106546689012281771",
+    "text": "@Baconbrix Interesting position you’re taking there mister Bacon. Now let’s see what someone can do with the ChatGPT subscription or the Grok subscription. 👀",
+    "url": "https://x.com/thsottiaux/status/2106546689012281771",
+    "postCreatedAt": "2026-10-04T00:47:23.000Z"
   },
   "latest": {
     "reset": {
