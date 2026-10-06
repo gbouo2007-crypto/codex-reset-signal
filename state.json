@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2107378093635899886",
-  "lastCheckedAt": "2026-10-06T15:06:06.796Z",
-  "lastSuccessAt": "2026-10-06T15:06:06.796Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 166,
+  "sinceId": "2107558288934216153",
+  "lastCheckedAt": "2026-10-06T20:14:56.461Z",
+  "lastSuccessAt": "2026-10-06T20:14:56.461Z",
+  "lastRunStatus": "checked-5-posts",
+  "postsScanned": 171,
   "matches": [
     {
       "version": "634cee8d4bc3c33cda61db1b50c369936dd953aad5b9f2f8e910166b36a2efeb",
@@ -340,23 +340,20 @@
     "2107368734981517634": "94753233df1ac0faf02dc8283e218679ba74f4792b4a49660c328e577948f985",
     "2107368786353398184": "671256981be4a7f06bb287e123c49029a573751f2535a4605c0e30897162fe34",
     "2107370852564021582": "2355282d94e31a15eda72302448df9c3ea626b66913f1224331515f6c9e1b7ef",
-    "2107378093635899886": "ab7b2a7b747e4cce2fa1433b445a51aaf3aa93e8e795c520495091eca75e34f9"
+    "2107378093635899886": "ab7b2a7b747e4cce2fa1433b445a51aaf3aa93e8e795c520495091eca75e34f9",
+    "2107504197012988007": "3c5e11ca775eecfc492d1b81a6ee5df2bae9319287ee1133b136f721ec037856",
+    "2107517084884521030": "25e4ecb7aa412cd7bcd79529f062e4c64e812b2e15443fa0f9baa4f4e0c5e700",
+    "2107548725359104441": "025e3bc9d9d5345adef9b99d8147a9ff6a4e1c43638c2374453f80ea07dbbd28",
+    "2107555660548468830": "856fb3899cacf4a8588c7829850ffb388d3c780c8177c2c46e34c8d25e8588c8",
+    "2107558288934216153": "ac56e63acb6c1e540ca772efc407435eada1f32eb715b0bdef56ae03670958a3"
   },
   "latestObservedPost": {
-    "id": "2107378093635899886",
-    "canonicalId": "2107378093635899886",
-    "text": "Settings → General → Permissions → Auto-review https://t.co/KC2nwWOCi9",
-    "createdAt": "2026-10-06T07:51:05.000Z",
-    "url": "https://x.com/thsottiaux/status/2107378093635899886",
-    "media": [
-      {
-        "mediaKey": "2107378080339681280",
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/HT7pMt4XYAATUfe.png?name=orig",
-        "previewImageUrl": null,
-        "altText": null
-      }
-    ]
+    "id": "2107558288934216153",
+    "canonicalId": "2107558288934216153",
+    "text": "@babayagatwt No dodge, just three updates today",
+    "createdAt": "2026-10-06T19:47:07.000Z",
+    "url": "https://x.com/thsottiaux/status/2107558288934216153",
+    "media": []
   },
   "eventParserVersion": 5
 }
