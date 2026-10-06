@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T20:14:56.465Z",
+  "updatedAt": "2026-10-06T23:53:06.194Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-06T20:14:56.461Z",
-    "lastSuccessAt": "2026-10-06T20:14:56.461Z",
-    "lastRunStatus": "checked-5-posts"
+    "lastCheckedAt": "2026-10-06T23:53:05.921Z",
+    "lastSuccessAt": "2026-10-06T23:53:05.921Z",
+    "lastRunStatus": "checked-18-posts"
   },
   "latestObservedPost": {
-    "id": "2107558288934216153",
-    "text": "@babayagatwt No dodge, just three updates today",
-    "url": "https://x.com/thsottiaux/status/2107558288934216153",
-    "postCreatedAt": "2026-10-06T19:47:07.000Z"
+    "id": "2107613966692409653",
+    "text": "@TheRohanVarma Ship ship ship",
+    "url": "https://x.com/thsottiaux/status/2107613966692409653",
+    "postCreatedAt": "2026-10-06T23:28:21.000Z"
   },
   "latest": {
     "reset": {
@@ -69,6 +69,58 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "85892387eb9ff7a95c526efcebe49b7e7ad48687dd700357c70170e063af22d3",
+      "id": "2107578625419866469",
+      "text": "Four updates or a reset. Or both. How was day 2.",
+      "url": "https://x.com/thsottiaux/status/2107578625419866469",
+      "postCreatedAt": "2026-10-06T21:07:55.000Z",
+      "detectedAt": "2026-10-06T23:53:05.921Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Four updates or a reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Four updates or a reset",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [
+        "email"
+      ],
+      "origin": "live"
+    },
+    {
+      "version": "57d0a1b4fe4b21e48d44e65af02de747a6399d988694606b367b04bca8c38397",
+      "id": "2107577536779870210",
+      "text": "@The_Alex I do like giving resets",
+      "url": "https://x.com/thsottiaux/status/2107577536779870210",
+      "postCreatedAt": "2026-10-06T21:03:36.000Z",
+      "detectedAt": "2026-10-06T23:53:05.920Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "@The_Alex I do like giving resets",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "@The_Alex I do like giving resets",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [
+        "email"
+      ],
+      "origin": "live"
+    },
     {
       "version": "634cee8d4bc3c33cda61db1b50c369936dd953aad5b9f2f8e910166b36a2efeb",
       "id": "2106845241357824205",
