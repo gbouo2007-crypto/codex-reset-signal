@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { extractEvents, formatTime, parseEventTime } from "../src/events";
+import { processedResetPost } from "./fixtures/processed-reset";
 const post = (text: string, date = "2026-09-09T01:00:00Z") => ({
   id: "1",
   text,
@@ -104,6 +105,7 @@ describe("reset assertion state", () => {
     "The reset is complete.",
     "The reset has propagated.",
     "Reset fully applied.",
+    "The reset has been processed. Enjoy!",
   ])("classifies strong completion: %s", (text) => {
     expect(extractEvents(post(text))[0]).toMatchObject({
       type: "reset",
@@ -118,6 +120,17 @@ describe("reset assertion state", () => {
     "Reset is not fully propagated.",
     "Maybe we reset tonight.",
     "There is no schedule, only resets.",
+    "Maybe the reset has been processed.",
+    "The reset should have been processed.",
+    "The reset has probably been processed.",
+    "It seems the reset has been processed.",
+    "The reset has been processed, I think.",
+    "Please confirm the reset has been processed.",
+    "Has the reset been processed?",
+    "The reset has not been processed.",
+    "The reset hasn't been processed.",
+    "The reset hasn’t been processed.",
+    "The reset request has been processed.",
   ])("keeps weak, negative or hypothetical assertions uncertain: %s", (text) => {
     expect(extractEvents(post(text))[0]).toMatchObject({
       type: "mention",
@@ -130,6 +143,27 @@ describe("reset assertion state", () => {
       type: "reset",
       status: "announced",
       time: { kind: "unknown" },
+    });
+  });
+
+  it("does not treat future processing as completion", () => {
+    expect(extractEvents(post("The reset will be processed."))[0]).toMatchObject({
+      type: "reset",
+      status: "announced",
+      time: { kind: "unknown" },
+    });
+  });
+
+  it("recognizes the Oct 7 completion without promoting surrounding discussion", () => {
+    const events = extractEvents(processedResetPost);
+    expect(events.map(({ type, status }) => ({ type, status }))).toEqual([
+      { type: "mention", status: "uncertain" },
+      { type: "mention", status: "uncertain" },
+      { type: "reset", status: "completed" },
+    ]);
+    expect(events[2]).toMatchObject({
+      evidence: "the reset has been processed",
+      time: { kind: "observed", start: "2026-10-07T03:35:09.000Z" },
     });
   });
 

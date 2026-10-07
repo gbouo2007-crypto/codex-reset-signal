@@ -5,6 +5,9 @@ import { join } from "node:path";
 import { loadConfig } from "../src/config";
 import { runMonitor } from "../src/monitor";
 import { emptyState, writeState } from "../src/state";
+import { buildPublicStatus } from "../src/public-status";
+import { extractEvents } from "../src/events";
+import { processedResetPost } from "./fixtures/processed-reset";
 
 const dirs: string[] = [];
 
@@ -63,7 +66,7 @@ it("reprojects saved matches after a parser upgrade without creating historical 
 
   expect(send).not.toHaveBeenCalled();
   expect(state.outbox).toEqual([]);
-  expect(state.eventParserVersion).toBe(5);
+  expect(state.eventParserVersion).toBe(6);
   expect(state.matches[0].events[0]).toMatchObject({
     type: "reset",
     status: "completed",
@@ -71,4 +74,73 @@ it("reprojects saved matches after a parser upgrade without creating historical 
   });
   const publicStatus = JSON.parse(await readFile(config.publicStatusPath!, "utf8"));
   expect(publicStatus.latest.reset.id).toBe("2");
+});
+
+it("advances latest.reset from Oct 3 after reprocessing a saved v5 processed announcement", async () => {
+  const dir = await mkdtemp(join(tmpdir(), "reset-processed-migration-"));
+  dirs.push(dir);
+  const config = loadConfig({
+    STATE_PATH: join(dir, "state.json"),
+    PUBLIC_STATUS_PATH: join(dir, "status.json"),
+  });
+  const previousPost = {
+    id: "2106233145163141249",
+    text: "Seeing some reports that the Pro 500 didn’t get the reset as expected earlier. Investigating and will make up for it",
+    createdAt: "2026-10-03T04:01:28.000Z",
+    url: "https://x.com/thsottiaux/status/2106233145163141249",
+    media: [],
+  };
+  const saved = emptyState("thsottiaux", "reset");
+  saved.eventParserVersion = 5;
+  saved.sinceId = "2107676900894417277";
+  saved.seen = { [processedResetPost.id]: "processed-version" };
+  saved.matches = [
+    {
+      ...processedResetPost,
+      version: "processed-version",
+      detectedAt: "2026-10-07T04:00:40.578Z",
+      channels: ["email"],
+      events: [{
+        type: "mention",
+        status: "uncertain",
+        evidence: "the reset has been processed",
+        time: { kind: "unknown", start: null, end: null, evidence: "the reset has been processed" },
+      }],
+    },
+    {
+      ...previousPost,
+      version: "previous-version",
+      detectedAt: "2026-10-03T08:18:12.455Z",
+      channels: ["email"],
+      events: extractEvents(previousPost),
+    },
+  ];
+  expect(buildPublicStatus(saved, "fxembed").latest.reset?.id).toBe("2106233145163141249");
+  await writeState(config.statePath, saved);
+
+  const send = vi.fn();
+  const state = await runMonitor(config, {
+    source: {
+      resolveUserId: async () => "42",
+      getPosts: async () => ({ posts: [], newestId: null }),
+    },
+    targets: [{ id: "email", channel: "email", send }],
+  });
+  const status = JSON.parse(await readFile(config.publicStatusPath!, "utf8"));
+  expect(status.latest.reset).toMatchObject({
+    id: "2107676072871600470",
+    postCreatedAt: "2026-10-07T03:35:09.000Z",
+    detectedAt: "2026-10-07T04:00:40.578Z",
+    deliveryChannels: ["email"],
+    events: expect.arrayContaining([expect.objectContaining({
+      type: "reset",
+      status: "completed",
+      time: expect.objectContaining({ kind: "observed", start: "2026-10-07T03:35:09.000Z" }),
+    })]),
+  });
+  expect(state.eventParserVersion).toBe(6);
+  expect(state.sinceId).toBe(saved.sinceId);
+  expect(state.seen).toEqual(saved.seen);
+  expect(state.outbox).toEqual([]);
+  expect(send).not.toHaveBeenCalled();
 });
