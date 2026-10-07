@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T23:53:06.194Z",
+  "updatedAt": "2026-10-07T04:00:40.812Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-06T23:53:05.921Z",
-    "lastSuccessAt": "2026-10-06T23:53:05.921Z",
-    "lastRunStatus": "checked-18-posts"
+    "lastCheckedAt": "2026-10-07T04:00:40.579Z",
+    "lastSuccessAt": "2026-10-07T04:00:40.579Z",
+    "lastRunStatus": "checked-7-posts"
   },
   "latestObservedPost": {
-    "id": "2107613966692409653",
-    "text": "@TheRohanVarma Ship ship ship",
-    "url": "https://x.com/thsottiaux/status/2107613966692409653",
-    "postCreatedAt": "2026-10-06T23:28:21.000Z"
+    "id": "2107676900894417277",
+    "text": "@ForwardEditor It ended well",
+    "url": "https://x.com/thsottiaux/status/2107676900894417277",
+    "postCreatedAt": "2026-10-07T03:38:26.000Z"
   },
   "latest": {
     "reset": {
@@ -69,6 +69,56 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "2f73d5d9fccb3a4eddab62adf9e52a79c2f89312d74d5f3da3190a909a0bb8cc",
+      "id": "2107676072871600470",
+      "text": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.\n\nTherefore ... the reset has been processed. Enjoy!",
+      "url": "https://x.com/thsottiaux/status/2107676072871600470",
+      "postCreatedAt": "2026-10-07T03:35:09.000Z",
+      "detectedAt": "2026-10-07T04:00:40.578Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        },
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        },
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "the reset has been processed",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "the reset has been processed",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "deliveryChannels": [
+        "email"
+      ],
+      "origin": "live"
+    },
     {
       "version": "85892387eb9ff7a95c526efcebe49b7e7ad48687dd700357c70170e063af22d3",
       "id": "2107578625419866469",
