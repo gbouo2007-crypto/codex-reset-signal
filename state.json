@@ -3,12 +3,41 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2107700139066593612",
-  "lastCheckedAt": "2026-10-07T17:46:10.053Z",
-  "lastSuccessAt": "2026-10-07T17:46:10.053Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 199,
+  "sinceId": "2107913738791596286",
+  "lastCheckedAt": "2026-10-07T22:18:08.873Z",
+  "lastSuccessAt": "2026-10-07T22:18:08.873Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 202,
   "matches": [
+    {
+      "version": "ecc7339da4eebb3dc39327664289521ad6dfb66f2129c71a7e50119a4ced0557",
+      "id": "2107913674593644711",
+      "canonicalId": "2107913674593644711",
+      "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+      "createdAt": "2026-10-07T19:19:17.000Z",
+      "url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "media": [],
+      "detectedAt": "2026-10-07T22:18:08.873Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Loading a banked reset in everyone's paid accounts",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Loading a banked reset in everyone's paid accounts",
+            "note": "原文没有可确定的时间"
+          }
+        }
+      ],
+      "channels": [
+        "github-actions",
+        "email"
+      ],
+      "notifiedAt": "2026-10-07T22:18:08.877Z"
+    },
     {
       "version": "2f73d5d9fccb3a4eddab62adf9e52a79c2f89312d74d5f3da3190a909a0bb8cc",
       "id": "2107676072871600470",
@@ -481,14 +510,17 @@
     "2107676900894417277": "76d00f880da89b88e344c6a5b7375ed50c75ea5e2a0274de161c5535012b7ec0",
     "2107699068499841309": "b96f4d9678f3d0c5db31b4ed03e2c14bb79cb50a5418368a8e725dfecec38331",
     "2107699167808356482": "ef1f4f39c57213854ea26c2a4c82275afea740e0b3370599bb617cf46415af1e",
-    "2107700139066593612": "9b643e77335a315497c969ee5ccf8004d17241b664cc70ffb5fb5234b3710ccf"
+    "2107700139066593612": "9b643e77335a315497c969ee5ccf8004d17241b664cc70ffb5fb5234b3710ccf",
+    "2107912709715132482": "a025218b1fd504fff2d0f4f9e459f0f983b4d4adaa22af7e1ccb02c12852c384",
+    "2107913674593644711": "ecc7339da4eebb3dc39327664289521ad6dfb66f2129c71a7e50119a4ced0557",
+    "2107913738791596286": "ab8bcef0ede211af9d7d603a283cd8df1f301e3c5c5bc7c1cf1f5cd9952ea254"
   },
   "latestObservedPost": {
-    "id": "2107700139066593612",
-    "canonicalId": "2107700139066593612",
-    "text": "@clyons Hmmm, muse is that you",
-    "createdAt": "2026-10-07T05:10:46.000Z",
-    "url": "https://x.com/thsottiaux/status/2107700139066593612",
+    "id": "2107913738791596286",
+    "canonicalId": "2107913738791596286",
+    "text": "Will be there by EOD PST.",
+    "createdAt": "2026-10-07T19:19:33.000Z",
+    "url": "https://x.com/thsottiaux/status/2107913738791596286",
     "media": []
   },
   "eventParserVersion": 5

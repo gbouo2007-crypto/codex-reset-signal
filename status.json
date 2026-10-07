@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T17:46:10.057Z",
+  "updatedAt": "2026-10-07T22:18:09.088Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-07T17:46:10.053Z",
-    "lastSuccessAt": "2026-10-07T17:46:10.053Z",
-    "lastRunStatus": "checked-0-posts"
+    "lastCheckedAt": "2026-10-07T22:18:08.873Z",
+    "lastSuccessAt": "2026-10-07T22:18:08.873Z",
+    "lastRunStatus": "checked-3-posts"
   },
   "latestObservedPost": {
-    "id": "2107700139066593612",
-    "text": "@clyons Hmmm, muse is that you",
-    "url": "https://x.com/thsottiaux/status/2107700139066593612",
-    "postCreatedAt": "2026-10-07T05:10:46.000Z"
+    "id": "2107913738791596286",
+    "text": "Will be there by EOD PST.",
+    "url": "https://x.com/thsottiaux/status/2107913738791596286",
+    "postCreatedAt": "2026-10-07T19:19:33.000Z"
   },
   "latest": {
     "reset": {
@@ -69,6 +69,32 @@
     "bankExpiry": null
   },
   "recent": [
+    {
+      "version": "ecc7339da4eebb3dc39327664289521ad6dfb66f2129c71a7e50119a4ced0557",
+      "id": "2107913674593644711",
+      "text": "Day 3/\n\nThe big one is GPT-6 in Chat, but today is also a little celebration day with a new high of 40M active users across Codex and ChatGPT Work.\n\nLoading a banked reset in everyone's paid accounts. See you again tomorrow!",
+      "url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "postCreatedAt": "2026-10-07T19:19:17.000Z",
+      "detectedAt": "2026-10-07T22:18:08.873Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Loading a banked reset in everyone's paid accounts",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Loading a banked reset in everyone's paid accounts",
+            "note": "原文没有可确定的时间"
+          }
+        }
+      ],
+      "deliveryChannels": [
+        "email"
+      ],
+      "origin": "live"
+    },
     {
       "version": "2f73d5d9fccb3a4eddab62adf9e52a79c2f89312d74d5f3da3190a909a0bb8cc",
       "id": "2107676072871600470",
