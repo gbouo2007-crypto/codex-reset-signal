@@ -3,16 +3,15 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2107676900894417277",
-  "lastCheckedAt": "2026-10-07T04:00:40.579Z",
-  "lastSuccessAt": "2026-10-07T04:00:40.579Z",
-  "lastRunStatus": "checked-7-posts",
-  "postsScanned": 196,
+  "sinceId": "2107700139066593612",
+  "lastCheckedAt": "2026-10-07T10:59:52.754Z",
+  "lastSuccessAt": "2026-10-07T10:59:52.754Z",
+  "lastRunStatus": "checked-3-posts",
+  "postsScanned": 199,
   "matches": [
     {
       "version": "2f73d5d9fccb3a4eddab62adf9e52a79c2f89312d74d5f3da3190a909a0bb8cc",
       "id": "2107676072871600470",
-      "canonicalId": "2107676072871600470",
       "text": "We shipped four things that were deemed good to great and some math proofs, but the vote is clear and the community demands a reset. I did calibrate it and it *seems* that the game is rigged in reset's favor, but such are the rules at the moment.\n\nTherefore ... the reset has been processed. Enjoy!",
       "createdAt": "2026-10-07T03:35:09.000Z",
       "url": "https://x.com/thsottiaux/status/2107676072871600470",
@@ -56,11 +55,11 @@
           }
         }
       ],
+      "notifiedAt": "2026-10-07T04:00:40.582Z",
       "channels": [
         "github-actions",
         "email"
-      ],
-      "notifiedAt": "2026-10-07T04:00:40.582Z"
+      ]
     },
     {
       "version": "85892387eb9ff7a95c526efcebe49b7e7ad48687dd700357c70170e063af22d3",
@@ -479,14 +478,17 @@
     "2107676072871600470": "2f73d5d9fccb3a4eddab62adf9e52a79c2f89312d74d5f3da3190a909a0bb8cc",
     "2107676261099426030": "7e658c02c6b9e37ebd1c303374bf80c4f9096a53418b804f55dac215d7583161",
     "2107676653895967106": "3e915bccabf104772f44d0eb16128aecda04b5766ca91868f0233cf2d0c037f3",
-    "2107676900894417277": "76d00f880da89b88e344c6a5b7375ed50c75ea5e2a0274de161c5535012b7ec0"
+    "2107676900894417277": "76d00f880da89b88e344c6a5b7375ed50c75ea5e2a0274de161c5535012b7ec0",
+    "2107699068499841309": "b96f4d9678f3d0c5db31b4ed03e2c14bb79cb50a5418368a8e725dfecec38331",
+    "2107699167808356482": "ef1f4f39c57213854ea26c2a4c82275afea740e0b3370599bb617cf46415af1e",
+    "2107700139066593612": "9b643e77335a315497c969ee5ccf8004d17241b664cc70ffb5fb5234b3710ccf"
   },
   "latestObservedPost": {
-    "id": "2107676900894417277",
-    "canonicalId": "2107676900894417277",
-    "text": "@ForwardEditor It ended well",
-    "createdAt": "2026-10-07T03:38:26.000Z",
-    "url": "https://x.com/thsottiaux/status/2107676900894417277",
+    "id": "2107700139066593612",
+    "canonicalId": "2107700139066593612",
+    "text": "@clyons Hmmm, muse is that you",
+    "createdAt": "2026-10-07T05:10:46.000Z",
+    "url": "https://x.com/thsottiaux/status/2107700139066593612",
     "media": []
   },
   "eventParserVersion": 5
