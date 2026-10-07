@@ -20,8 +20,10 @@ type ResetAssertion = "uncertain" | "completed" | "committed" | "mention";
 
 const uncertainAssertion =
   /\?|\b(?:wish|hope|maybe|might|could|would|should|unless|if|may|please|not|never|won't|isn't|aren't|can't|cannot|don't|didn't|pending|waiting|failed|failing)\b|\bno\s+(?:schedule|plan|reset|confirmation)\b/i;
+// Keep processed completion clause-exact: processing a request or a hedged
+// report does not confirm that the reset itself completed.
 const completedAssertion =
-  /\b(?:have|has|just|already)\s+(?:been\s+)?reset\b|\blimits?\s+(?:are|is|were|was)\s+(?:now\s+)?(?:fully\s+)?reset\b|\ball\s+(?:usage\s+)?reset\b|\breset(?:s|ting)?\b[^.!?]{0,80}\b(?:complete(?:d)?|done|finished|propagated|applied|landed)\b/i;
+  /\b(?:have|has|just|already)\s+(?:been\s+)?reset\b|\blimits?\s+(?:are|is|were|was)\s+(?:now\s+)?(?:fully\s+)?reset\b|\ball\s+(?:usage\s+)?reset\b|\breset(?:s|ting)?\b[^.!?]{0,80}\b(?:complete(?:d)?|done|finished|propagated|applied|landed)\b|^(?:the\s+)?reset\s+has\s+been\s+processed[.!]?$/i;
 const committedAssertion =
   /\b(?:will|going\s+to|plan(?:ned|ning)?\s+to)\b[^.!?]{0,120}\breset(?:s|ting)?\b|\b(?:scheduled|expected)\b[^.!?]{0,40}\breset(?:s|ting)?\b|\breset(?:s|ting)?\b[^.!?]{0,120}\b(?:will|lands?|landing|scheduled|expected|propagating|rolling\s+out)\b|\bresetting\b|\breset(?:s|ting)?\b\s+(?:in|within|at|around|by|today|tonight|tomorrow)\b/i;
 
