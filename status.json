@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T02:04:43.066Z",
+  "updatedAt": "2026-10-08T08:52:56.491Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-10-08T02:04:43.061Z",
-    "lastSuccessAt": "2026-10-08T02:04:43.061Z",
-    "lastRunStatus": "checked-1-posts"
+    "lastCheckedAt": "2026-10-08T08:52:56.488Z",
+    "lastSuccessAt": "2026-10-08T08:52:56.488Z",
+    "lastRunStatus": "checked-10-posts"
   },
   "latestObservedPost": {
-    "id": "2108014292910113006",
-    "text": "@poteto You really had to sleep on that one",
-    "url": "https://x.com/thsottiaux/status/2108014292910113006",
-    "postCreatedAt": "2026-10-08T01:59:07.000Z"
+    "id": "2108086116683526498",
+    "text": "@Angaisb_ Ah.. spoiled my Day 17",
+    "url": "https://x.com/thsottiaux/status/2108086116683526498",
+    "postCreatedAt": "2026-10-08T06:44:31.000Z"
   },
   "latest": {
     "reset": {
