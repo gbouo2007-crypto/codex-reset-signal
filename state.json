@@ -3,12 +3,53 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2110591392691159317",
-  "lastCheckedAt": "2026-10-15T04:54:07.939Z",
-  "lastSuccessAt": "2026-10-15T04:54:07.939Z",
-  "lastRunStatus": "checked-2-posts",
-  "postsScanned": 268,
+  "sinceId": "2110624335463584028",
+  "lastCheckedAt": "2026-10-15T09:36:55.050Z",
+  "lastSuccessAt": "2026-10-15T09:36:55.050Z",
+  "lastRunStatus": "checked-6-posts",
+  "postsScanned": 274,
   "matches": [
+    {
+      "version": "26278fd8a9f9deb053233cc5114c40ba3cdd311bd6aa75bc2688d88afeb12443",
+      "id": "2110595484180214059",
+      "canonicalId": "2110595484180214059",
+      "text": "The reports of my reset button being lost are greatly exaggerated\n\nDay 10/ Reset",
+      "createdAt": "2026-10-15T04:55:51.000Z",
+      "url": "https://x.com/thsottiaux/status/2110595484180214059",
+      "media": [],
+      "detectedAt": "2026-10-15T09:36:55.049Z",
+      "events": [
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "The reports of my reset button being lost are greatly exaggerated",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "The reports of my reset button being lost are greatly exaggerated",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        },
+        {
+          "type": "mention",
+          "status": "uncertain",
+          "evidence": "Day 10/ Reset",
+          "time": {
+            "kind": "unknown",
+            "start": null,
+            "end": null,
+            "evidence": "Day 10/ Reset",
+            "note": "未形成明确的重置承诺或完成确认"
+          }
+        }
+      ],
+      "channels": [
+        "github-actions",
+        "email"
+      ],
+      "notifiedAt": "2026-10-15T09:36:55.054Z"
+    },
     {
       "version": "0c2365f179f9ebd9526f6652d6d5b41cd355a42feb13a8dbdee1544d6ad1da78",
       "id": "2109873287853707513",
@@ -774,23 +815,21 @@
     "2110167061632819447": "a6ec12048bc02abc334fd4d64642b1e9dad380c7c73ffb892925055fadc4efe1",
     "2110188326422819047": "794c9eaa2f5ff6fd9278737bb80f1411624688c057d1a4a172241b558a6b09a0",
     "2110589470911418414": "912d303446b8e66a7e657841ed31015a3d0af3dc4e6649f61f0e9b4335c9841e",
-    "2110591392691159317": "e027ff75ceba8f60c5aa786d1f0b4d6cb7e4cdf48a215bcabdaff6aada25ba35"
+    "2110591392691159317": "e027ff75ceba8f60c5aa786d1f0b4d6cb7e4cdf48a215bcabdaff6aada25ba35",
+    "2110595484180214059": "26278fd8a9f9deb053233cc5114c40ba3cdd311bd6aa75bc2688d88afeb12443",
+    "2110595554036400151": "73915993aa7b4ccdbe8f83fbbe3b1ad3aba37875b1ddd8301cf9e0a1eebdf2b0",
+    "2110595987542868381": "bd69f639e6d4d9b1fb5a17b02b396c8c828ee0809385f585a29f7fb8cf7a5954",
+    "2110612268962779352": "4f39d52a7c7deee6cfa9c721b959c52f615e08675a640524b8baaf8b1a6ad1ab",
+    "2110618732666257557": "996d7cf9247938296f825c7bd9eac307760773d5fd36fb40dc9f0e8c4c806639",
+    "2110624335463584028": "dbb755b91b9555b5b948fe74ed1665aad1fb20e53918a88be35338e80709d37e"
   },
   "latestObservedPost": {
-    "id": "2110591392691159317",
-    "canonicalId": "2110591392691159317",
-    "text": "@poteto @theo I made it alive https://t.co/FjnywxZiLC",
-    "createdAt": "2026-10-15T04:39:35.000Z",
-    "url": "https://x.com/thsottiaux/status/2110591392691159317",
-    "media": [
-      {
-        "mediaKey": "2110591377675612160",
-        "type": "photo",
-        "url": "https://pbs.twimg.com/media/HUpTrPRbcAAVR5R.jpg?name=orig",
-        "previewImageUrl": null,
-        "altText": null
-      }
-    ]
+    "id": "2110624335463584028",
+    "canonicalId": "2110624335463584028",
+    "text": "@theo Nice. Will fix",
+    "createdAt": "2026-10-15T06:50:29.000Z",
+    "url": "https://x.com/thsottiaux/status/2110624335463584028",
+    "media": []
   },
   "eventParserVersion": 5
 }
