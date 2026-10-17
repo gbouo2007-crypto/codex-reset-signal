@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111341888322314672",
-  "lastCheckedAt": "2026-10-17T13:03:02.316Z",
-  "lastSuccessAt": "2026-10-17T13:03:02.316Z",
-  "lastRunStatus": "checked-0-posts",
-  "postsScanned": 295,
+  "sinceId": "2111492028177723532",
+  "lastCheckedAt": "2026-10-17T16:20:21.862Z",
+  "lastSuccessAt": "2026-10-17T16:20:21.862Z",
+  "lastRunStatus": "checked-2-posts",
+  "postsScanned": 297,
   "matches": [
     {
       "version": "26278fd8a9f9deb053233cc5114c40ba3cdd311bd6aa75bc2688d88afeb12443",
@@ -841,14 +841,16 @@
     "2111337472349343856": "f52ebbfaae21f307ac2e0227ea2003f4f22c54df7b38cabbf6253eb0a43b5853",
     "2111338115667509490": "616cb939eb104d1682317d5373b11ab56e88cc67a70fba52eee33cbfba0eaf3c",
     "2111339932614861298": "82b1dae819e850b94dcea0128e148c52677f1aa0191579b83462bc0c38d889fb",
-    "2111341888322314672": "d2681eabf4574cce53ac494363055b5dc1f5c0877985cace0da168e8526acd73"
+    "2111341888322314672": "d2681eabf4574cce53ac494363055b5dc1f5c0877985cace0da168e8526acd73",
+    "2111491105120547265": "26773c25c2b35ed67f86af4c0f2e363c32ba29c7edb689aee2c28627ad30fc88",
+    "2111492028177723532": "ee4691b223bce3bdd0e4ca6fd45d1f925b368acff7694542b8a3427fad12d64a"
   },
   "latestObservedPost": {
-    "id": "2111341888322314672",
-    "canonicalId": "2111341888322314672",
-    "text": "@steipete 💀",
-    "createdAt": "2026-10-17T06:21:47.000Z",
-    "url": "https://x.com/thsottiaux/status/2111341888322314672",
+    "id": "2111492028177723532",
+    "canonicalId": "2111492028177723532",
+    "text": "Is it just me or was @ajambrosino nerfed today",
+    "createdAt": "2026-10-17T16:18:23.000Z",
+    "url": "https://x.com/thsottiaux/status/2111492028177723532",
     "media": []
   },
   "eventParserVersion": 5
