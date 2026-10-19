@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2111945355596353823",
-  "lastCheckedAt": "2026-10-18T23:37:54.926Z",
-  "lastSuccessAt": "2026-10-18T23:37:54.926Z",
+  "sinceId": "2111994295364571327",
+  "lastCheckedAt": "2026-10-19T01:42:49.011Z",
+  "lastSuccessAt": "2026-10-19T01:42:49.011Z",
   "lastRunStatus": "checked-2-posts",
-  "postsScanned": 315,
+  "postsScanned": 317,
   "matches": [
     {
       "version": "f7a9422b6a050344dbc8758d9fc575a4cb52ebca200291e6ef9bbe222fe2119d",
@@ -925,14 +925,16 @@
     "2111918635849801739": "5de74bed76286972541eb1f7676ead6096a46e1d22532eb68658d32ba0a38edc",
     "2111918768733753664": "f7a9422b6a050344dbc8758d9fc575a4cb52ebca200291e6ef9bbe222fe2119d",
     "2111941223187710114": "d1bbc0514b67356130f56873fa86a15e6579491fdb15c2e8225345ea0cb241d5",
-    "2111945355596353823": "9b603d79c383a25419d6c14b3bfcb15a90a2f99dc3f12489f042f4055f77fea4"
+    "2111945355596353823": "9b603d79c383a25419d6c14b3bfcb15a90a2f99dc3f12489f042f4055f77fea4",
+    "2111990254408434095": "2e052ebf59ee204716c6915da8de50f8f379da529dcfb8e6272f7841619941bb",
+    "2111994295364571327": "c542bbb2d8c07d5c41d49fa9083b2c37ebbe9a489e9216c8256767de7a80a00a"
   },
   "latestObservedPost": {
-    "id": "2111945355596353823",
-    "canonicalId": "2111945355596353823",
-    "text": "@theo Journalism with additional Theo steps",
-    "createdAt": "2026-10-18T22:19:45.000Z",
-    "url": "https://x.com/thsottiaux/status/2111945355596353823",
+    "id": "2111994295364571327",
+    "canonicalId": "2111994295364571327",
+    "text": "@JamesStewau0y5 Registers as time travel",
+    "createdAt": "2026-10-19T01:34:13.000Z",
+    "url": "https://x.com/thsottiaux/status/2111994295364571327",
     "media": []
   },
   "eventParserVersion": 5
