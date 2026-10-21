@@ -4,15 +4,14 @@
   "keyword": "reset",
   "userId": "1953337039510003712",
   "sinceId": "2112798407928713717",
-  "lastCheckedAt": "2026-10-21T07:30:35.929Z",
-  "lastSuccessAt": "2026-10-21T07:30:35.929Z",
-  "lastRunStatus": "checked-1-posts",
+  "lastCheckedAt": "2026-10-21T13:10:05.119Z",
+  "lastSuccessAt": "2026-10-21T13:10:05.119Z",
+  "lastRunStatus": "checked-0-posts",
   "postsScanned": 329,
   "matches": [
     {
       "version": "ed5d41aa8bfe4c73cc891ac09420b29bbe0115dd803c2ce9430be134be21cf44",
       "id": "2112798407928713717",
-      "canonicalId": "2112798407928713717",
       "text": "@theo I demand a reset",
       "createdAt": "2026-10-21T06:49:29.000Z",
       "url": "https://x.com/thsottiaux/status/2112798407928713717",
@@ -32,11 +31,11 @@
           }
         }
       ],
+      "notifiedAt": "2026-10-21T07:30:35.937Z",
       "channels": [
         "github-actions",
         "email"
-      ],
-      "notifiedAt": "2026-10-21T07:30:35.937Z"
+      ]
     },
     {
       "version": "4d9af2b3bec9bb61cf8d47e37ee68ba3439228225d37ef8a38314cc8826cac0b",
