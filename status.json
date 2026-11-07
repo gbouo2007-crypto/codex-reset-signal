@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T01:08:46.202Z",
+  "updatedAt": "2026-11-07T07:09:27.865Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-07T01:08:46.199Z",
-    "lastSuccessAt": "2026-11-07T01:08:46.199Z",
-    "lastRunStatus": "checked-1-posts"
+    "lastCheckedAt": "2026-11-07T07:09:27.861Z",
+    "lastSuccessAt": "2026-11-07T07:09:27.861Z",
+    "lastRunStatus": "checked-13-posts"
   },
   "latestObservedPost": {
-    "id": "2118871902366441879",
-    "text": "It's Friday",
-    "url": "https://x.com/thsottiaux/status/2118871902366441879",
-    "postCreatedAt": "2026-11-07T01:03:22.000Z"
+    "id": "2118953661820977315",
+    "text": "@theo Also, you really died 25 times? 😭",
+    "url": "https://x.com/thsottiaux/status/2118953661820977315",
+    "postCreatedAt": "2026-11-07T06:28:15.000Z"
   },
   "latest": {
     "reset": {
