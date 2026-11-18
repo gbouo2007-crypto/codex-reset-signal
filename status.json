@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T03:49:25.956Z",
+  "updatedAt": "2026-11-18T12:21:03.905Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-18T03:49:25.950Z",
-    "lastSuccessAt": "2026-11-18T03:49:25.950Z",
-    "lastRunStatus": "checked-5-posts"
+    "lastCheckedAt": "2026-11-18T12:21:03.899Z",
+    "lastSuccessAt": "2026-11-18T12:21:03.899Z",
+    "lastRunStatus": "checked-10-posts"
   },
   "latestObservedPost": {
-    "id": "2122891208968294400",
-    "text": "@JoshPurtell Beauty is in the eye of the beholder, but clearly the models are polarizing. A bit like we had in the early codex days. These models are clearly extremely capable but have a couple of rough edges that we will sand down over time.",
-    "url": "https://x.com/thsottiaux/status/2122891208968294400",
-    "postCreatedAt": "2026-11-18T03:14:40.000Z"
+    "id": "2122954129094111394",
+    "text": "@mattshumer_ I do think you all coordinated on a slack channel 👀",
+    "url": "https://x.com/thsottiaux/status/2122954129094111394",
+    "postCreatedAt": "2026-11-18T07:24:41.000Z"
   },
   "latest": {
     "reset": null,
