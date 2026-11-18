@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T12:21:03.905Z",
+  "updatedAt": "2026-11-18T20:46:03.870Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-18T12:21:03.899Z",
-    "lastSuccessAt": "2026-11-18T12:21:03.899Z",
-    "lastRunStatus": "checked-10-posts"
+    "lastCheckedAt": "2026-11-18T20:46:03.865Z",
+    "lastSuccessAt": "2026-11-18T20:46:03.865Z",
+    "lastRunStatus": "checked-5-posts"
   },
   "latestObservedPost": {
-    "id": "2122954129094111394",
-    "text": "@mattshumer_ I do think you all coordinated on a slack channel 👀",
-    "url": "https://x.com/thsottiaux/status/2122954129094111394",
-    "postCreatedAt": "2026-11-18T07:24:41.000Z"
+    "id": "2123151267002503570",
+    "text": "@AdamHoltererer Climbing",
+    "url": "https://x.com/thsottiaux/status/2123151267002503570",
+    "postCreatedAt": "2026-11-18T20:28:02.000Z"
   },
   "latest": {
     "reset": null,
