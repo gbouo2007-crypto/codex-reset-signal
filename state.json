@@ -3,11 +3,11 @@
   "username": "thsottiaux",
   "keyword": "reset",
   "userId": "1953337039510003712",
-  "sinceId": "2122816458711548126",
-  "lastCheckedAt": "2026-11-17T22:29:28.846Z",
-  "lastSuccessAt": "2026-11-17T22:29:28.846Z",
+  "sinceId": "2122891208968294400",
+  "lastCheckedAt": "2026-11-18T03:49:25.950Z",
+  "lastSuccessAt": "2026-11-18T03:49:25.950Z",
   "lastRunStatus": "checked-5-posts",
-  "postsScanned": 528,
+  "postsScanned": 533,
   "matches": [
     {
       "version": "2732b43e8f7002afa5ee3d3720a66a3370014efcbf52871d64eb02dd4dffeafb",
@@ -1119,14 +1119,19 @@
     "2122754551187132438": "750909f9b816c5cd538bf49562f7c0f2afe60cf1ba04fa5e47bb7240cc53d55b",
     "2122815564821434613": "ce7597add272b03052af2fd26bd10a027c9c742ec502e97660042f7257a3142b",
     "2122816053348847795": "4412beb5878a6cfb12e674d4d5b7b556ac61c4507249480c895a5547e1d66269",
-    "2122816458711548126": "d26e31b1706f8680bd62f6249941231121f97e258c64fe00a068db4f658a9a3b"
+    "2122816458711548126": "d26e31b1706f8680bd62f6249941231121f97e258c64fe00a068db4f658a9a3b",
+    "2122850498202271748": "a03e5ede914cd7784429a1aeb7933adde730518919d878051c8394426dd49cab",
+    "2122851449474605281": "47af6c5b6161f17623b4a552240be9d993cfa1f1e497b9aa09f651436c8a9750",
+    "2122880282550481388": "4ba9acae548aa2cd26b7bd0f8ccd467104f9cb589767b1b155e7e521d5f3e260",
+    "2122880368600621508": "3377aa1c0b1b0770186fd70fdea1c685e5fed23366b10af992584492f7ac2269",
+    "2122891208968294400": "f28ddd886f53c49e7375ad403c498bb6a2d0ff1dc97903a6dff3cea4627fc015"
   },
   "latestObservedPost": {
-    "id": "2122816458711548126",
-    "canonicalId": "2122816458711548126",
-    "text": "@notjazii Team never stops. We'll get it right on all levels one day, in the meantime it's a pretty good jump on all fronts and cheaper/faster.",
-    "createdAt": "2026-11-17T22:17:38.000Z",
-    "url": "https://x.com/thsottiaux/status/2122816458711548126",
+    "id": "2122891208968294400",
+    "canonicalId": "2122891208968294400",
+    "text": "@JoshPurtell Beauty is in the eye of the beholder, but clearly the models are polarizing. A bit like we had in the early codex days. These models are clearly extremely capable but have a couple of rough edges that we will sand down over time.",
+    "createdAt": "2026-11-18T03:14:40.000Z",
+    "url": "https://x.com/thsottiaux/status/2122891208968294400",
     "media": []
   },
   "eventParserVersion": 5

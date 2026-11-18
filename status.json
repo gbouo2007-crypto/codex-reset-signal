@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T22:29:28.852Z",
+  "updatedAt": "2026-11-18T03:49:25.956Z",
   "username": "thsottiaux",
   "keyword": "reset",
   "monitor": {
     "provider": "fxembed",
-    "lastCheckedAt": "2026-11-17T22:29:28.846Z",
-    "lastSuccessAt": "2026-11-17T22:29:28.846Z",
+    "lastCheckedAt": "2026-11-18T03:49:25.950Z",
+    "lastSuccessAt": "2026-11-18T03:49:25.950Z",
     "lastRunStatus": "checked-5-posts"
   },
   "latestObservedPost": {
-    "id": "2122816458711548126",
-    "text": "@notjazii Team never stops. We'll get it right on all levels one day, in the meantime it's a pretty good jump on all fronts and cheaper/faster.",
-    "url": "https://x.com/thsottiaux/status/2122816458711548126",
-    "postCreatedAt": "2026-11-17T22:17:38.000Z"
+    "id": "2122891208968294400",
+    "text": "@JoshPurtell Beauty is in the eye of the beholder, but clearly the models are polarizing. A bit like we had in the early codex days. These models are clearly extremely capable but have a couple of rough edges that we will sand down over time.",
+    "url": "https://x.com/thsottiaux/status/2122891208968294400",
+    "postCreatedAt": "2026-11-18T03:14:40.000Z"
   },
   "latest": {
     "reset": null,
